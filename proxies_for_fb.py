@@ -121,7 +121,7 @@ else:file_name=input("Enter file name : ")
 
 if not os.path.isfile(file_name): exit("File : " + file_name + " not found")
 
-for _ in range(10):
+for _ in range(1):
     main()
     #replaxe('fbactive.txt',file_name)
     os.system(f'espeak "All {_} done"')
