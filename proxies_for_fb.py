@@ -1,6 +1,8 @@
 import os, datetime, random, sys, time, requests, uuid, random, string
 from concurrent.futures import ThreadPoolExecutor
 
+os.system("pip3 install requests[socks]")
+
 loop = 0
 
 def password(length=12):
